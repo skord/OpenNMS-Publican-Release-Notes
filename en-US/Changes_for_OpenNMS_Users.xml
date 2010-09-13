@@ -18,12 +18,12 @@
 			<variablelist>
 			  <varlistentry><term>Bug Fix: Font Reference for Early Morning Report</term>
 			    <listitem>
-			      <para>References to Calibri and Helvetica Neue were changed to SansSerif. This caused the Early Morning Report to fail to run in some environments.</para>
+			      <para>References to Calibri and Helvetica Neue were changed to SansSerif. This caused the Early Morning Report to fail to run in some environments. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4059">Bug: 4059</ulink>.</para>
 			    </listitem>
 			  </varlistentry>
 			  <varlistentry><term>Bug Fix: White Lines Removed from Charts</term>
 			    <listitem>
-			      <para>The component that rendered the Charts in the Chart section of the UI was displaying a white line down the center of the bar charts. This was introduced with the upgrade of the JFreeChart component, and the configuration has now been set to default to the old behavior without the white line. </para>
+			      <para>The component that rendered the Charts in the Chart section of the UI was displaying a white line down the center of the bar charts. This was introduced with the upgrade of the JFreeChart component, and the configuration has now been set to default to the old behavior without the white line. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=3976">Bug: 3976</ulink>.</para>
 			    </listitem>
 			  </varlistentry>
 			</variablelist>

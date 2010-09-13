@@ -18,27 +18,27 @@
 			<variablelist>
 			  <varlistentry><term>Feature: Cisco Firewall Detection</term>
 			    <listitem>
-			      <para>The Cisco Firewall Service Module is now detected as a firewall</para>
+			      <para>The Cisco Firewall Service Module is now detected as a firewall.<ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4088">Bug: 4088</ulink>.</para>
 			    </listitem>
 			  </varlistentry>
 			  <varlistentry><term>Feature: Data Collection for Cisco C1250 Wireless Access Point</term>
 			    <listitem>
-			      <para>The Cisco C1250 Wireless Access Point is detected as such and proper statistics will be collected for it by default.</para>
+			      <para>The Cisco C1250 Wireless Access Point is detected as such and proper statistics will be collected for it by default. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4071">Bug: 4071</ulink>.</para>
 			    </listitem>
 			  </varlistentry>
 			  <varlistentry><term>Feature: Makelsan UPS Detection</term>
 			    <listitem>
-			      <para>Makelsan UPS' are detected and proper statistics are now collected by default.</para>
+			      <para>Makelsan UPS' are detected and proper statistics are now collected by default. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4090">Bug: 4090</ulink>.</para>
 			    </listitem>
 			  </varlistentry>
 				<varlistentry><term>Feature: Force10 10Gb Ethernet Data Collection</term>
 					<listitem>
-					  <para>System statistics for Force10 10Gb ethernet switches are now collected and graphed.</para>
+					  <para>System statistics for Force10 10Gb ethernet switches are now collected and graphed. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4088">Bug: 4088</ulink>.</para>
 					</listitem>
 				</varlistentry>
 				<varlistentry><term>Feature: APC UPS Alarms</term>
 				  <listitem>
-				    <para>On-Battery and Power Restored events received from APC UPS' will set and clear alarms for those conditions.</para>
+				    <para>On-Battery and Power Restored events received from APC UPS' will set and clear alarms for those conditions. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4054">Bug: 4054</ulink>.</para>
 				  </listitem>
 				</varlistentry>
 			</variablelist>
