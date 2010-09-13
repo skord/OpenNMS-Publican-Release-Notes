@@ -10,16 +10,20 @@
 	</para>
 	<section id="sect-Release_Notes-Overview-Major_New_Features">
 		<title>Major New Features</title>
-		<para>
-			No Major new features have been added in &PRODVER;.
-		</para>
+		<itemizedlist>
+		  <listitem>
+		    <para>Some cross-site scripting vulnerabilities have been identified and fixed. </para>
+		  </listitem>
+		</itemizedlist>
 	</section>
 	
 	<section id="sect-Release_Notes-Overview-Minor_New_Features">
 		<title>Minor New Features</title>
 		<para>
 			<itemizedlist>
-				<listitem><para>Minor Features Go Here.</para></listitem>
+				<listitem>
+					<para>Updated devices for linkd discovery.</para>
+				</listitem>
 			</itemizedlist>
 		</para>
 	</section>

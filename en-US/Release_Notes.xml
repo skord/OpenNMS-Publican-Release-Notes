@@ -17,6 +17,6 @@
 	<xi:include href="Changes_for_Specific_Audiences.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />	
 	<xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="OpenNMS_Release_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<index />
+	<!-- <index /> -->
 </book>
 
