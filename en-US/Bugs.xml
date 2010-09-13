@@ -11,7 +11,7 @@
 	<section id="sect-Release_Notes-Bugs-Bugs_Closed">
 		<title>Bugs Fixed in &PRODUCT; &PRODVER;</title>
 		<para>
-			The current list of fixed bugs for this version can be found in the OpenNMS Bugzilla System. <ulink url="http://bugzilla.opennms.org/buglist.cgi?product=OpenNMS&amp;target_milestone=1.8.3&amp;resolution=FIXED">Bugzilla Query for FIXED status in &PRODUCT; &PRODVER;</ulink>
+			The current list of fixed bugs for this version can be found in the OpenNMS Bugzilla System. <ulink url="http://bugzilla.opennms.org/buglist.cgi?product=OpenNMS&amp;target_milestone=1.8.4&amp;resolution=FIXED">Bugzilla Query for FIXED status in &PRODUCT; &PRODVER;</ulink>
 		</para>
 	</section>
 	

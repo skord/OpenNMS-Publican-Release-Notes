@@ -8,6 +8,16 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>1.8.4</revnumber>
+				<date>The Future</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.8.4 is the fourth in the 1.8 series of production-ready OpenNMS releases.</member>
+						<member>The codename for 1.8.4 is <emphasis>Update Me</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>1.8.3</revnumber>
 				<date>Thu Aug 12 2010</date>
 				<revdescription>

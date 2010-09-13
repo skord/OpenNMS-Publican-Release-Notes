@@ -6,7 +6,7 @@
 <chapter id="chap-Release_Notes-Overview">
 	<title>Overview</title>
 	<para>
-		&PRODUCT; &PRODVER; is the fourth release of the 1.8 series of production-ready &PRODUCT; releases. It is a bug fix release from &LASTPRODVER;, and is a recommended upgrade for most users.
+		&PRODUCT; &PRODVER; is the fourth release of the 1.8 series of production-ready &PRODUCT; releases. It is a recommended upgrade for most users.
 	</para>
 	<section id="sect-Release_Notes-Overview-Major_New_Features">
 		<title>Major New Features</title>
@@ -19,7 +19,7 @@
 		<title>Minor New Features</title>
 		<para>
 			<itemizedlist>
-				<listitem><para>Logging verbosity has been turned down to settings similar to the 1.6 series of &PRODUCT;, DEBUG logging is no longer the default. On systems where logging was shared with the same disk as other tasks, this may result in a small performance increase in the overall application.</para></listitem>
+				<listitem><para>Minor Features Go Here.</para></listitem>
 			</itemizedlist>
 		</para>
 	</section>

@@ -6,7 +6,7 @@
 <chapter id="chap-Release_Notes-Changes_for_OpenNMS_Administrators">
 	<title>Changes for &PRODUCT; Administrators</title>
 	<para>
-		<emphasis>&PRODUCT; Administrators</emphasis> are people who are ultimately responsible for the operation and maintenance of an &PRODUCT; system. &PRODUCT; Administrators are responsible for adding new features and higher level tasks which  sometimes require <systemitem>admin</systemitem> access to the Web UI and often command line access to the &PRODUCT; server they administrate.
+		<emphasis>&PRODUCT; Administrators</emphasis> are people who are ultimately responsible for the operation and maintenance of an &PRODUCT; system. &PRODUCT; Administrators are responsible for adding new features and higher level tasks which  sometimes require <systemitem>admin</systemitem> access to the Web UI and often command line access to the &PRODUCT; server they administer.
 	</para>
 	
 	<section id="sect-Release_Notes-Changes_for_OpenNMS_Administrators-From_Last_Version">
@@ -16,30 +16,37 @@
 		</para>
 		<para>
 			<variablelist>
-				<title>
-				Features, Enhancements, and Bug Fixes for Administrators
-				</title>
-				<varlistentry>
-					<term>Bug Fix: Logging</term>
-					<listitem>
-						<para>
-							The default logging levels for &PRODUCT; have been turned down from DEBUG.  (Bug <ulink url="http://bugzilla.opennms.org/show_bug.cgi?id=4047">#4047</ulink>)
-						</para>
-						<para>
-							A change was made to turn down excessive logging for remote pollers.  (Bug <ulink url="http://bugzilla.opennms.org/show_bug.cgi?id=4045">#4045</ulink>)
-						</para>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Bug Fix: Installation</term>
-					<listitem>
-						<para>
-							A bug that caused IPLIKE installation to fail on 64-bit Debian Lenny has been fixed.  (Bug <ulink url="http://bugzilla.opennms.org/show_bug.cgi?id=4039">#4039</ulink>)
-						</para>
-					</listitem>
-				</varlistentry>
+			  <varlistentry><term>Feature: New Cisco Additions to Linkd</term>
+			    <listitem>
+			      <para>The linkd topology discovery component will now take advantage of Cisco 2621, 3845, 2811, 2821 and 2801 devices.</para>
+			    </listitem>
+			  </varlistentry>
+			  <varlistentry><term>Feature: Additional Chart Customization</term>
+			    <listitem>
+			      <para>New color options are available in <filename>chart-configuration.xml</filename> to change background colors. See <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=3976">Bug #3976</ulink><ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=3976">Bug #3976</ulink> for configuration details. </para>
+			    </listitem>
+			  </varlistentry>
+			  <varlistentry><term>Feature: New Filter Fields</term>
+			    <listitem>
+			      <para>It is now possible to write filter rules which utilize the foreignSource and foreignID node attributes. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4102">Bug: 4102</ulink></para>
+			    </listitem>
+			  </varlistentry>
+			  <varlistentry><term>Bug Fix: Plain Text Notification Formatting</term>
+			    <listitem>
+			      <para>White space was stripped from notifications by the Web UI as well as on outgoing notifications that were manually entered into <filename>notifications.xml</filename>. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4056">Bug: 4056</ulink>.</para>
+			    </listitem>
+			  </varlistentry>
+			  <varlistentry><term>Bug Fix: IPLIKE Install Script</term>
+			    <listitem>
+			      <para>Whitespace missing in the IPLIKE install script caused an error message. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4065">Bug: 4065</ulink>.</para>
+			    </listitem>
+			  </varlistentry>
+			  <varlistentry><term>Bug Fixes: Group Names</term>
+			    <listitem>
+			      <para>A group name with a space in it would be truncated by the Web UI. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4095">Bug: 4095</ulink>. Renaming a group in the Web UI caused a duplicate group to be created. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4096">Bug: 4096</ulink>.</para>
+			    </listitem>
+			  </varlistentry>
 			</variablelist>
 		</para>
 	</section>
 </chapter>
-
