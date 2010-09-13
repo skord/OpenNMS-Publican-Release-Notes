@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Release_Notes-Overview">
+	<title>Overview</title>
+	<para>
+		&PRODUCT; &PRODVER; is the fourth release of the 1.8 series of production-ready &PRODUCT; releases. It is a bug fix release from &LASTPRODVER;, and is a recommended upgrade for most users.
+	</para>
+	<section id="sect-Release_Notes-Overview-Major_New_Features">
+		<title>Major New Features</title>
+		<para>
+			No Major new features have been added in &PRODVER;.
+		</para>
+	</section>
+	
+	<section id="sect-Release_Notes-Overview-Minor_New_Features">
+		<title>Minor New Features</title>
+		<para>
+			<itemizedlist>
+				<listitem><para>Logging verbosity has been turned down to settings similar to the 1.6 series of &PRODUCT;, DEBUG logging is no longer the default. On systems where logging was shared with the same disk as other tasks, this may result in a small performance increase in the overall application.</para></listitem>
+			</itemizedlist>
+		</para>
+	</section>
+
+</chapter>
+

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Release_Notes-Changes_for_OpenNMS_Administrators">
+	<title>Changes for &PRODUCT; Administrators</title>
+	<para>
+		<emphasis>&PRODUCT; Administrators</emphasis> are people who are ultimately responsible for the operation and maintenance of an &PRODUCT; system. &PRODUCT; Administrators are responsible for adding new features and higher level tasks which  sometimes require <systemitem>admin</systemitem> access to the Web UI and often command line access to the &PRODUCT; server they administrate.
+	</para>
+	
+	<section id="sect-Release_Notes-Changes_for_OpenNMS_Administrators-From_Last_Version">
+		<title>Changes since &LASTPRODVER;</title>
+		<para>
+			The following changes for &PRODUCT; Administrators have have gone into effect since &PRODUCT; &LASTPRODVER;
+		</para>
+		<para>
+			<variablelist>
+				<title>
+				Features, Enhancements, and Bug Fixes for Administrators
+				</title>
+				<varlistentry>
+					<term>Bug Fix: Logging</term>
+					<listitem>
+						<para>
+							The default logging levels for &PRODUCT; have been turned down from DEBUG.  (Bug <ulink url="http://bugzilla.opennms.org/show_bug.cgi?id=4047">#4047</ulink>)
+						</para>
+						<para>
+							A change was made to turn down excessive logging for remote pollers.  (Bug <ulink url="http://bugzilla.opennms.org/show_bug.cgi?id=4045">#4045</ulink>)
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Bug Fix: Installation</term>
+					<listitem>
+						<para>
+							A bug that caused IPLIKE installation to fail on 64-bit Debian Lenny has been fixed.  (Bug <ulink url="http://bugzilla.opennms.org/show_bug.cgi?id=4039">#4039</ulink>)
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+		</para>
+	</section>
+</chapter>
+

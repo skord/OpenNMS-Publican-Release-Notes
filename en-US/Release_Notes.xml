@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<book>
+	<xi:include href="Book_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Overview.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Requirements.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<!-- <xi:include href="Installing.xml" xmlns:xi="http://www.w3.org/2001/XInclude" /> -->
+	<!-- <xi:include href="Upgrading.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />	 -->
+	<xi:include href="Changes_for_OpenNMS_Users.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />	
+	<xi:include href="Changes_for_OpenNMS_Administrators.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />	
+	<xi:include href="Changes_for_OpenNMS_Developers.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />	
+	<xi:include href="Changes_for_Specific_Audiences.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />	
+	<xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="OpenNMS_Release_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<index />
+</book>
+

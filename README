@@ -1,0 +1,16 @@
+Updating the Release Notes
+--------------------------
+
+1.) Create and checkout git branch for this version.
+2.) Update Release_Notes.ent with the current version and past version of the software.
+3.) Update the Release version in Book_Info.xml
+4.) ???
+5.) Update Major and Minor new features (Overview.XML). Blurb about this release in the first <para>
+6.) Update any supported platforms changes (Requirements.xml)
+7.) Update link to bugs in Bugs.xml. Escape your ampersands
+8.) Spend some time in bugzilla finding target audiences for bug fixes and changes on a per audience basis.
+9.) Update OpenNMS Release History
+10.) Update document revision history
+11.) If structural changes have been made, change the edition in Book_Info.xml
+12.) Run a non-publish test build for sanity checks
+13.) Generate and publish

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE authorgroup PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<authorgroup>
+	<author>
+		<firstname>Tarus</firstname>
+		<surname>Balog</surname>
+		<affiliation>
+			<orgname>OpenNMS Community</orgname>
+			<orgdiv>Documentation Team</orgdiv>
+		</affiliation>
+		<email>tarus@opennms.org</email>
+	</author>
+	<author>
+		<firstname>Matt</firstname>
+		<surname>Brozowski</surname>
+		<affiliation>
+			<orgname>OpenNMS Community</orgname>
+			<orgdiv>Documentation Team</orgdiv>
+		</affiliation>
+		<email>brozow@opennms.org</email>
+	</author>
+	<author>
+		<firstname>David</firstname>
+		<surname>Hustace</surname>
+		<affiliation>
+			<orgname>OpenNMS Community</orgname>
+			<orgdiv>Documentation Team</orgdiv>
+		</affiliation>
+		<email>david@opennms.org</email>
+	</author>
+	<author>
+		<firstname>Benjamin</firstname>
+		<surname>Reed</surname>
+		<affiliation>
+			<orgname>OpenNMS Community</orgname>
+			<orgdiv>Documentation Team</orgdiv>
+		</affiliation>
+		<email>ranger@opennms.org</email>
+	</author>
+	<author>
+		<firstname>Mike</firstname>
+		<surname>Danko</surname>
+		<affiliation>
+			<orgname>OpenNMS Community</orgname>
+			<orgdiv>Documentation Team</orgdiv>
+		</affiliation>
+		<email>mike@l4m3.com</email>
+	</author>
+</authorgroup>
+

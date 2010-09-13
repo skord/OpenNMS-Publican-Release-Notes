@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<appendix id="appe-Release_Notes-OpenNMS_Release_History">
+	<title>OpenNMS Release History</title>
+	<simpara>
+		<revhistory>
+			<revision>
+				<revnumber>1.8.3</revnumber>
+				<date>Thu Aug 12 2010</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.8.3 is the fourth in the 1.8 series of production-ready OpenNMS releases.</member>
+						<member>The codename for 1.8.3 is <emphasis>Least Tern</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.8.2</revnumber>
+				<date>Thu Aug 10 2010</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.8.2 is the third in the 1.8 series of production-ready OpenNMS releases.</member>
+						<member>The codename for 1.8.2 is <emphasis>Spotted Sandpiper</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.8.1</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.8.1 is the second in the 1.8 series of production-ready OpenNMS releases.</member>
+						<member>The codename for 1.8.1 is <emphasis>Lady Gould</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.8.0</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.8.0 is the first in the 1.8 series of production-ready OpenNMS releases.</member>
+						<member>The codename for 1.8.1 is <emphasis>Cardinal</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.7.92</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.92 is the third release candidate in the 1.8 series. It represents what will eventually become OpenNMS 1.8.0 when it is declared stable.</member>
+						<member>The codename for 1.7.92 is <emphasis>Fria</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.7.91</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.91 is the second release candidate in the 1.8 series. It represents what will eventually become OpenNMS 1.8.0 when it is declared stable.</member>
+						<member>The codename for 1.7.91 is <emphasis>JFGI</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.7.90</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.91 is the first release candidate in the 1.8 series. It represents what will eventually become OpenNMS 1.8.0 when it is declared stable.</member>
+						<member>The codename for 1.7.90 is <emphasis>Born Slippy</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.7.10</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.10 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.10 is <emphasis>Bebop</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.7.9</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.9 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.9 is <emphasis>Jack</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.7.8</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.8 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.8 is <emphasis>Serenity</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>1.7.7</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.7 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.7 is <emphasis>Clyde</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.7.6</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.6 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.6 is <emphasis>Orange Chicken</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>1.7.5</revnumber>
+				<date>Not Reported</date>				
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.5 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.5 is <emphasis>ShamWow!</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>1.7.4</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.4 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.4 is <emphasis>eels</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>1.7.3</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.3 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.3 is <emphasis>auto-tune</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>1.7.2</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.2 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.2 is <emphasis>culpa</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>1.7.1</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.1 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.1 is <emphasis>Oops We Did It Again</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>1.7.3</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.7.0 is the latest in a series of development releases of OpenNMS. This represents what will eventually become OpenNMS 1.8.0 when it is declared feature-complete and stable. </member>
+						<member>The codename for 1.7.0 is <emphasis>GIRAFFES!</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.6.10</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.10 is a minor feature release in the 1.6 series.</member>
+						<member>The codename for 1.6.10 is <emphasis>Cowboy</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.6.9</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.9 is a minor feature release in the 1.6 series.</member>
+						<member>The codename for 1.6.9 is <emphasis>Bauer</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>1.6.8</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.8 is a minor feature release in the 1.6 series.</member>
+						<member>The codename for 1.6.8 is <emphasis>Easy Button</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.6.7</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.7 is a minor feature release in the 1.6 series.</member>
+						<member>The codename for 1.6.7 is <emphasis>Bonnie</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.6.6</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.6 is a bugfix release in the 1.6 series. It is a recommended upgrade for all users.</member>
+						<member>The codename for 1.6.6 is <emphasis>Helmethead</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.6.5</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.5 is a small bugfix release in the 1.6 series. It is a recommended upgrade for all users.</member>
+						<member>The codename for 1.6.5 is <emphasis>Eastern Conference Finals</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>1.6.4</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.4 continues the 1.6 series with a fix for a showstopper exception in OpenNMS 1.6.3. It is a strongly recommended upgrade for all users.</member>
+						<member>The codename for 1.6.4 is <emphasis>mea</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>		
+			<revision>
+				<revnumber>1.6.3</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.3 continues the 1.6 series with a small set of bug fixes and minor feature enhancements. It is a recommended upgrade for all users.</member>
+						<member>The codename for 1.6.3 is <emphasis>waterfall</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>		
+			<revision>
+				<revnumber>1.6.2</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.2 continues the 1.6 series with a small set of bug fixes and minor feature enhancements. It is a recommended upgrade for all users.</member>
+						<member>The codename for 1.6.2 is <emphasis>software mercenaries</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>		
+			<revision>
+				<revnumber>1.6.1</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.1 continues the 1.6 series with a small set of bug fixes and minor feature enhancements. It is a recommended upgrade for all users.</member>
+						<member>The codename for 1.6.1 is <emphasis>bamboo army</emphasis>.</member>
+					</simplelist>
+				</revdescription>
+			</revision>		
+			<revision>
+				<revnumber>1.6.0</revnumber>
+				<date>Not Reported</date>
+				<revdescription>
+					<simplelist>
+						<member>Release 1.6.0 is the first stable release in the OpenNMS 1.6 series.</member>
+					</simplelist>
+				</revdescription>
+			</revision>		
+		</revhistory>
+	</simpara>
+</appendix>

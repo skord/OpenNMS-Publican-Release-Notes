@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Release_Notes-Upgrading">
+	<title>Upgrading to &PRODUCT; &PRODVER;</title>
+	<para>
+		If you are upgrading from a previous version of &PRODUCT;, steps must be taken before upgrading to &PRODVER; to ensure configurations are preserved and the database is migrated successfully. Practice good system administration when attempting to upgrade, as portions of the upgrade process can be irreversible.
+	</para>
+	<para>
+		For platform specific details and questions, use any of the resources in the Feedback section of the <xref linkend="pref-Release_Notes-Preface" />.
+	</para>
+	
+	<section id="sect-Release_Notes-Upgrading-Preparation">
+		<title>Preparation</title>
+		<para>Upgrading &PRODUCT; is handled by package managers on most platforms. Before continuing, make certain you:
+			<itemizedlist>
+				<listitem>
+					<para>
+						Are aware of how to re-enable potentially disabled package repositories.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Are familiar enough with &PRODUCT; and diff tools to deal with configuration file merging.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Have the access you need to the system being upgraded as well as any supporting servers, such as a independent PostgreSQL instance or file server for RRD storage.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Know how to backup and restore a PostgreSQL database.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Have storage media on hand for backups. Some databases and RRD sets can grow rather large. 
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+			If you're in doubt about any of the items above, check in with Community or Commercial Support options before continuing as a failed upgrade carries the potential for irreversible damage to your data if not executed properly. 
+		</para>
+		<note>
+			<title>Rollback Plan</title>
+			<para>
+				If you find yourself in a situation where you cannot proceed with an upgrade in-progress, or the upgrade is taking longer than the maintenance window you have allowed, be sure to have a roll-back plan to restore your configuration and data prior to entering your upgrade window. If you're not familiar enough with dropping, creating, and restoring a database or restoring a file-system backup, mid-upgrade is probably not the best time to learn. Experienced and new admins alike often write down <emphasis>exactly</emphasis> what needs to be done to recover the prior configuration even if their tickets don't require information to that level of detail. It's a lot easier to read something you've already tested at three in the morning than wondering if it's going to work or not
+			</para>
+		</note>
+	</section>
+
+	<section id="sect-Release_Notes-Upgrading-Process_Overview">
+		<title>Upgrade Process Overview</title>
+		<para>
+			Upgrading &PRODUCT; is relatively straight-forward:
+			<orderedlist>
+				<listitem><para>Run filesystem and database backups</para></listitem>
+				<listitem><para>Optionally check upstream configuration changes with <command>git</command> before upgrading</para></listitem>
+				<listitem><para>Install the new packages.</para></listitem>
+				<listitem><para>Resolve any configuration changes.</para></listitem>
+				<listitem><para>Run <command>install -dis</command> to upgrade the database.</para></listitem>
+				<listitem><para>Resolving any issues presented by the installer.</para></listitem>
+				<listitem><para>Starting &PRODUCT;</para></listitem>
+				<listitem><para>Backup your new configuration and data.</para></listitem>
+			</orderedlist>
+		</para>
+		<para>
+					Besides configuration changes that are changes from the defaults, such as graphs created by the user, often new configurations may be presented by the addition of new features. To see what these are ahead of time, if they are present, you can use the <command>git</command> command to see the changes in the configuration files from the last version to this version. 
+		</para>
+		<para>To use <command>git</command> in this manner, find a place on your system where it would be appropriate to download the &PRODUCT; source code and run <command>git clone git://opennms.git.sourceforge.net/gitroot/opennms/opennms</command> to clone the &PRODUCT; source repository. After you've cloned the source, go to the directory it was put in and run <command>git diff <replaceable>oldversion</replaceable>..<replaceable>newversion</replaceable> opennms-daemon/src/main/filtered/etc</command>. Replace <replaceable>oldversion</replaceable> with your current version of &PRODUCT;, such as <systemitem>opennms-1.6.7</systemitem> and <replaceable>newversion</replaceable> with the version you are upgrading to, such as <systemitem>opennms-1.6.8</systemitem>.
+		</para>
+		<para>
+			This will echo all the configuration file changes from your current version to the version you intend to go to in diff format. Depending on your terminal and <command>git</command> configuration, you may even get an easy to read colorized output. 
+		</para>
+		<important>
+			<title>Just upstream!</title>
+			<para>
+				Using <command>git</command> in the manner above will not reflect any changes to any user-introduced content, like new graphs or other situations where you need to edit files provided by &PRODUCT; at install time. It is handy to know what changed upstream, but it is critical to make sure you end up resolving local changes as well. 
+			</para>
+		</important>
+	</section>
+
+	<section id="sect-Release_Notes-Upgrading-Upgrade_Tasks">
+		<title>End User Impact</title>
+		<para>
+			This is a test paragraph in a section
+		</para>
+	</section>
+	
+	<section id="sect-Release_Notes-Upgrading-End_User_Impact">
+		<title>End User Impact</title>
+		<para>
+			This is a test paragraph in a section
+		</para>
+	</section>
+	
+	<section id="sect-Release_Notes-Upgrading-Upgrade_Procedure">
+		<title>Upgrade Procedure</title>
+		<para>
+			Prior to upgrading, check your system for expected operation. A standard walk-through of basic application operation should suffice:
+			<itemizedlist>
+				<listitem>
+					<para>
+						Check login via WebUI
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Verify data is being collected (RRD's, events) and persisted (events panel, graphs).
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Customized components are present, such as maps, SLM categories, etc.
+					</para>
+				</listitem>				
+				<listitem>
+					<para>
+						If technically possible, try a service restart. 
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Check for any issues with system downtime in recent history.
+					</para>
+				</listitem>				
+			</itemizedlist>
+		</para>
+		<para>
+			Once you are certain your system is operating properly, backup your configuration directory. On many platforms, this is <filename>/opt/opennms/etc</filename>, but this location does vary by platform and installation type. Check your original install documentation for the location of your installation. Make certain to save your backup somewhere it will not be touched by the upgrade process.
+		</para>
+		<para>
+			Once you've 
+		</para>
+	</section>
+
+	<section id="sect-Release_Notes-Upgrading-Post_Upgrade_Tasks">
+		<title>Post Upgrade Tasks</title>
+		<para>
+			Chill out and relax!
+		</para>
+	</section>
+
+	<section id="sect-Release_Notes-Upgrading-Rolling_Back">
+		<title>Rolling Back</title>
+		<para>
+			Cross your fingers on this one...
+		</para>
+	</section>
+
+</chapter>
+

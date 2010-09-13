@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Release_Notes-Bugs">
+	<title>Bugs and Issues</title>
+	<para>
+		As always, the &PRODUCT; community and development team have done their best to add new features and eliminate existing bugs. Prior to taking any action with installing or upgrading &PRODUCT;, check the links to the known issues listed for this release as bugs may have been reported or reopened after the distribution of the Release Notes document.
+	</para>
+	<section id="sect-Release_Notes-Bugs-Bugs_Closed">
+		<title>Bugs Fixed in &PRODUCT; &PRODVER;</title>
+		<para>
+			The current list of fixed bugs for this version can be found in the OpenNMS Bugzilla System. <ulink url="http://bugzilla.opennms.org/buglist.cgi?product=OpenNMS&amp;target_milestone=1.8.3&amp;resolution=FIXED">Bugzilla Query for FIXED status in &PRODUCT; &PRODVER;</ulink>
+		</para>
+	</section>
+	
+	<section id="sect-Release_Notes-Bugs-Bugs_Open">
+		<title>Open Bugs and Issues</title>
+		<para>
+			The current list of unresolved issues for the &PRODVER; release can also be found in the OpenNMS Bugzilla System. <ulink url="http://bugzilla.opennms.org/buglist.cgi?product=OpenNMS&amp;target_milestone=future+1.8&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">Confirmed bugs and issues targeted for the next &PRODUCT; release.</ulink>
+		</para>
+	</section>
+</chapter>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Release_Notes-Changes_for_Specific_Audiences">
+	<title>Changes to &PRODUCT; for Specific Audiences</title>
+	<para>
+		Some new features, enhancements, and bug fixes don't always apply to all users of an &PRODUCT; system, but rather are intended for specific audiences, such as users of a particular managed device type.
+	</para>
+	
+	<section id="sect-Release_Notes-Changes_for_Specific_Audiences-From_Last_Version">
+		<title>Changes since &LASTPRODVER;</title>
+		<para>
+			The following specific-audience changes have have gone into effect since &PRODUCT; &LASTPRODVER;
+		</para>
+		<para>
+			<emphasis>No new changes for developers have been reported.</emphasis>
+		</para>
+	</section>
+</chapter>

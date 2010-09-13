@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Release_Notes-Requirements">
+	<title>Requirements</title>
+	<section id="sect-Release_Notes-Requirements-Supported_Platforms">
+		<title>Supported Platforms</title>
+		<para>
+			OpenNMS is written almost entirely in Java, and should be able to run on any system that supports the Sun Java Virtual Machine -- OpenNMS 1.3.x and higher requires Java 5 or higher.  There are requirements for other programs such as PostgreSQL and Perl, but the JDK is the key requirement as most of the other packages can be compiled from source.
+		</para>
+		<section id="sect-Release_Notes-Requirements-Supported_Platforms_Supported_Fully">
+			<title>Fully Supported Platforms</title>
+			<para>
+				The following systems are supported out-of-the-box with native installation packages.
+			</para>
+			<para>
+				<variablelist>
+					<varlistentry>
+						<term>RPM-Based Distributions (Using YUM)</term>
+						<listitem>
+							<para>Red Hat Enterprise Linux 3 and later</para>
+							<para>CentOS 3 and later</para>
+							<para>Fedora Core 4 and later (including 64-bit)</para>
+							<para>SuSE Linux 9 and 10 (Using the YUM repository through YAST)</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Other RPM-based Distributions</term>
+						<listitem><para>Mandriva Linux 2007 and later (Using URPMI)</para></listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Debian and Ubuntu Linux</term>
+						<listitem>
+							<para>Debian Etch and later</para>
+							<para>Ubuntu 6.10 and later</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Oracle Solaris</term>
+						<listitem>
+							<para>Solaris 10 SPARC</para>
+							<para>Solaris 10 x86</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Apple Mac OS</term>
+						<listitem><para>Mac OS X 10.4 and later (via Fink)</para></listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Microsoft Windows Operating System</term>
+						<listitem>
+							<para>Windows Server operating system</para>
+							<para>Windows 2000 operating system and later</para>
+						</listitem>
+					</varlistentry>				
+				</variablelist>				
+			</para>
+			<para>
+				<note>
+					<title>Non-UNIX-like Operating Systems</title>
+					<para>
+						Note that while it is technically possible to install on FAT32, NTFS is the only officially supported filesystem for Windows installs. Additionally, while Windows is supported, OpenNMS is much more heavily	tested (and easier to maintain) on UNIX, and it is recommended that unless you have a specific reason to go with Windows, that you use	one of the supported UNIX-based operating systems.
+					</para>
+				</note>
+			</para>
+		</section>
+		<section id="sect-Release_Notes-Requirements-Supported_Platforms_Unsupported">
+			<title>Unsupported Platforms</title>
+	    <para>
+				OpenNMS 1.3.7 and up require Java 5 (a 1.5 JDK) and PostgreSQL 7.4 or higher. In addition, for native RRD support (as opposed to the builtin Java-based JRobin round-robin database), RRDTool 1.2 is required.
+			</para>
+
+	    <para>
+				Any operating system that can support these dependencies should be able to run OpenNMS. However, since many older distributions do not support packages for these applications it will be much harder to get them installed, and so they are not officially supported.
+			</para>
+
+	    <para>
+				A number of distributions that used to be supported are still able to run OpenNMS but are not officially supported.
+			</para>
+			<para>
+				<variablelist>
+					<varlistentry>
+						<term>Gentoo</term>
+						<listitem>
+							<para>
+								Gentoo ebuilds used to be available but are no longer officially maintained, as no Gentoo packager volunteers keep them up-to-date.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Red Hat Linux</term>
+						<listitem>
+							<para>
+								While Red hat Linux 7, 8, and 9 (and potentially even others might still work, they have long gone untested and are not recommended for production use.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>SuSE Linux</term>
+						<listitem><para>Versions 8 and earlier</para></listitem>						
+					</varlistentry>
+					<varlistentry>
+						<term>Oracle Solaris</term>
+						<listitem><para>Solaris 9 and earlier</para></listitem>						
+					</varlistentry>
+				</variablelist>
+			</para>
+		</section>		
+	</section>
+</chapter>

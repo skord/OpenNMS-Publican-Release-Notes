@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Release_Notes-Installing">
+	<title>Installing</title>
+	<para>
+		If you are installing &PRODUCT; for the first time, see the quick install instructions for your platform on the <ulink url="http://www.opennms.org/wiki/Main_Page">Main Page</ulink> of opennms.org.
+	</para>
+	<para>
+		The quick start instructions should be suitable for demo uses and smaller applications, but only following the quick start instructions may lead to problems with scalability on mid-size to larger installations. Be aware that scaling system components and optimizing settings can and is required in larger installations. 
+	</para>
+</chapter>
+
