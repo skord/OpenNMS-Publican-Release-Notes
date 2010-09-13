@@ -6,13 +6,13 @@
 <chapter id="chap-Release_Notes-Changes_for_OpenNMS_Developers">
 	<title>Changes for &PRODUCT; Developers</title>
 	<para>
-		<emphasis>&PRODUCT; Developers</emphasis> are people who use the &PRODUCT; application on a regular basis for the purposes of maintaining a functional network.
+		<emphasis>&PRODUCT; Developers</emphasis> are people who contribute to the end product.
 	</para>
 	
 	<section id="sect-Release_Notes-Changes_for_OpenNMS_Developers-From_Last_Version">
 		<title>Changes since &LASTPRODVER;</title>
 		<para>
-			The following changes for &PRODUCT; Users have have gone into effect since &PRODUCT; &LASTPRODVER;
+			The following changes for &PRODUCT; developers have have gone into effect since &PRODUCT; &LASTPRODVER;
 		</para>
 		<para>
 			<emphasis>No new changes for developers have been reported.</emphasis>

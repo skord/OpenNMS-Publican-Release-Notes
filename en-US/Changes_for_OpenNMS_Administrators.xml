@@ -18,12 +18,12 @@
 			<variablelist>
 			  <varlistentry><term>Feature: New Cisco Additions to Linkd</term>
 			    <listitem>
-			      <para>The linkd topology discovery component will now take advantage of Cisco 2621, 3845, 2811, 2821 and 2801 devices.</para>
+			      <para>The linkd topology discovery component will now take advantage of Cisco 2621, 3845, 2811, 2821 and 2801 devices. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4082">Bug: 4082</ulink></para>
 			    </listitem>
 			  </varlistentry>
 			  <varlistentry><term>Feature: Additional Chart Customization</term>
 			    <listitem>
-			      <para>New color options are available in <filename>chart-configuration.xml</filename> to change background colors. See <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=3976">Bug #3976</ulink><ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=3976">Bug #3976</ulink> for configuration details. </para>
+			      <para>New color options are available in <filename>chart-configuration.xml</filename> to change background colors. See <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=3976">Bug: 3976</ulink> for configuration details. </para>
 			    </listitem>
 			  </varlistentry>
 			  <varlistentry><term>Feature: New Filter Fields</term>
@@ -44,6 +44,11 @@
 			  <varlistentry><term>Bug Fixes: Group Names</term>
 			    <listitem>
 			      <para>A group name with a space in it would be truncated by the Web UI. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4095">Bug: 4095</ulink>. Renaming a group in the Web UI caused a duplicate group to be created. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4096">Bug: 4096</ulink>.</para>
+			    </listitem>
+			  </varlistentry>
+			  <varlistentry><term>Bug Fix: XSS Vulnerability</term>
+			    <listitem>
+			      <para>Vulnerabilities relating to cross-site scripting have been fixed. <ulink type="http" url="http://bugzilla.opennms.org/show_bug.cgi?id=4110">Bug: 4110</ulink>.</para>
 			    </listitem>
 			  </varlistentry>
 			</variablelist>
